@@ -312,7 +312,7 @@
 <h4 id="ICMP"><a href="#ICMP" class="headerlink" title="ICMP"></a>ICMP</h4><p>IP数据包在传输的途中一旦发生异常导致无法到达目的地址时，需要给发送端发送一个异常通知。ICMP就是为了这个功能制定的。</p>
 <h4 id="ARP"><a href="#ARP" class="headerlink" title="ARP"></a>ARP</h4><p>从分组数据包的IP地址中解析出物理地址（MAC地址)的一种协议。</p>
 <h5 id="4-传输层"><a href="#4-传输层" class="headerlink" title="4.传输层"></a>4.传输层</h5><p>传输层最主要的功能是能够让应用程序之间实现通信。</p>
-<h3 id="以下是传输层协议"><a href="#以下是传输层协议" class="headerlink" title="以下是传输层协议"></a>以下是传输层协议</h3><p>####TCP协议<br>TCP是一种面向连接的传输层协议。它可以保证两端通信主机之间的通信可达。TCP能够正确处理传输过程中丢包、传输顺序乱掉等异常情况。</p>
+<h3 id="以下是传输层协议"><a href="#以下是传输层协议" class="headerlink" title="以下是传输层协议"></a>以下是传输层协议</h3><h4 id="TCP协议"><a href="#TCP协议" class="headerlink" title="TCP协议"></a>TCP协议</h4><p>TCP是一种面向连接的传输层协议。它可以保证两端通信主机之间的通信可达。TCP能够正确处理传输过程中丢包、传输顺序乱掉等异常情况。</p>
 <h4 id="UDP协议"><a href="#UDP协议" class="headerlink" title="UDP协议"></a>UDP协议</h4><p>UDP是一种面向无连接的传输层协议。UDP不关心对端是否真正收到了传送过去的数据。如果需要检查对端是否收到分组数据包，或者对端是否连接到网络，则需要在应用程序中实现。<br>UDP常用在分组数据较少或多播、广播通信以及视频通信等多媒体领域。</p>
 <h5 id="5-应用层（会话层以上的分层）"><a href="#5-应用层（会话层以上的分层）" class="headerlink" title="5.应用层（会话层以上的分层）"></a>5.应用层（会话层以上的分层）</h5><p>TCP/IP的分层中，将OSI参考模型中的会话层、表示层和应用层的功能都集中到了应用程序中实现。<br>TCP/IP应用的架构绝大多数属于客户端/服务器模型。</p>
 <p>下面是应用层的主要应用：</p>
